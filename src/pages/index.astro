@@ -1,0 +1,27 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Button from '../components/Button.astro';
+import Link from '../components/Link.astro';
+import { Image } from 'astro:assets';
+import Hero from "../components/Hero.astro";
+import thumbsup from "../assets/images/thumbsup.png";
+import Sektionet from '../components/Sektionet.astro';
+import Sektionto from '../components/Sektionto.astro';
+import Sektiontre from '../components/Sektiontre.astro';
+---
+<MainLayout title="Titel">
+<Hero></Hero>
+<Sektionet></Sektionet>
+<Sektionto></Sektionto>
+<Sektiontre></Sektiontre>
+</MainLayout>
+
+
+
+
+<!-- <article>
+	<h1>Index overskrift</h1>
+	<Button>Klik!</Button>
+	<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
+	<Image src={thumbsup} alt=""></Image>
+</article> -->

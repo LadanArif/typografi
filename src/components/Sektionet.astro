@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import styletxt from "../assets/images/styletxt.svg";
+---
+
+<section class="bg-red-300">
+    <div class="class">
+        <h1 class="pb-2 text-2xl">Om skriften</h1>
+        <h2 class="pb-4 text-xl">Bubble fonten - en livlig og kreativ font</h2>
+        <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet provident delectus ab magnam in aperiam beatae ullam ipsam quidem eveniet, laudantium quo necessitatibus. Quos, voluptatum! Ducimus quaerat nesciunt corrupti quae?</p>
+    </div>
+    <div class="grid grid-cols-2">
+        <Image src={styletxt} alt="" class="my-0"/>
+        <Image src={styletxt} alt="" class="my-0"/>
+    </div>
+</section>

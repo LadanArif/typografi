@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import headerbg from "../assets/images/headerbg.jpg";
+import styletxt from "../assets/images/styletxt.svg";
+---
+<section class="">
+    <div class="relative w-screen h-screen">
+        <Image src={headerbg} alt="" class="w-full h-full object-cover md:w-full md:h-full md:object-cover" />
+    </div>
+</section>
+
+<div class="relative top-[-400px] flex justify-center md:relative md:top-[-500px] md:justify-center md:px-36 md:pl-44">
+    <Image src={styletxt} alt="" class="w-full h-full px-8" />
+</div>
+
+
